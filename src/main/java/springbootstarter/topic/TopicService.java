@@ -18,11 +18,6 @@ public class TopicService
     @Autowired
     private TopicRepo topicRepo;
 
-     private List<Topic> topics = new ArrayList<>(Arrays.asList(
-            new Topic ("Spring", "Spring Framework", "SpringFrameworkDescption"),
-                new Topic("Fall", "Ionic", "Mobile App"),
-                new Topic("Winter", "Angular", "Web App")
-        ));
 
      public  List<Topic> getAllTopics()
      {
@@ -44,19 +39,11 @@ public class TopicService
 
     public void updateTopic(Topic topic, String id)
     {
-        for(int i = 0; i < topics.size(); i++)
-        {
-            Topic t = topics.get(i);
-            if(t.getId().equals(id))
-            {
-                topics.set(i, topic);
-                return;
-            }
-        }
+        topicRepo.save(topic);
     }
 
     public void deleteTopic(String id)
     {
-        topics.removeIf(topic -> topic.getId().equals(id));
+        topicRepo.delete(id);
     }
 }
