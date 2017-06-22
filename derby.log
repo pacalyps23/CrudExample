@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Sun Jun 18 17:14:23 EDT 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015c-bd0e-8025-00000b0a7dc0 
-on database directory memory:/Users/paco/Java/Labs/Spring/CrudExample/testdb with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
-Loaded from file:/Users/paco/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+Thu Jun 22 18:55:01 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015c-d204-14bc-000008bd8840 
+on database directory memory:/Users/luisgarcia/dev/labs/Spring/CourseAPI/testdb with class loader sun.misc.Launcher$AppClassLoader@448139f0 
+Loaded from file:/Users/luisgarcia/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_121-b13
-user.dir=/Users/paco/Java/Labs/Spring/CrudExample
+java.runtime.version=1.8.0_111-b14
+user.dir=/Users/luisgarcia/dev/labs/Spring/CourseAPI
 os.name=Mac OS X
 os.arch=x86_64
 os.version=10.12.5
